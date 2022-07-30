@@ -16,6 +16,7 @@ import BlogGridCard from "./BlogGridCard";
 import UXImage from "../../assets/images/Image.png";
 import Face1 from "../../assets/avatar/face1.jpg";
 import "./BlogLayout.scss";
+import { Link } from "react-router-dom";
 
 const BlogGrid = () => {
   return (
@@ -62,10 +63,34 @@ const BlogGrid = () => {
               </CardActions>
 
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  UX review presentations
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
+                <Link to="/blog">
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    sx={{
+                      cursor: "pointer",
+                      fontFamily: "Inter",
+                      fontStyle: "normal",
+                      fontWeight: 600,
+                      fontSize: "22px",
+                      lineHeight: "32px",
+                      color: "#101828",
+                    }}
+                  >
+                    UX review presentations
+                  </Typography>
+                </Link>
+                <Typography
+                  variant="body2"
+                  sx={{
+                    fontFamily: "Inter",
+                    fontStyle: "normal",
+                    fontWeight: 400,
+                    fontSize: "13px",
+                    color: "#667085",
+                  }}
+                >
                   How do you create compelling presentations that wow your
                   colleagues and impress your managers?
                 </Typography>

@@ -59,10 +59,32 @@ export default function BlogGridCard() {
               </Button>
             </CardActions>
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography
+                gutterBottom
+                variant="h5"
+                component="div"
+                sx={{
+                  cursor: "pointer",
+                  fontFamily: "Inter",
+                  fontStyle: "normal",
+                  fontWeight: 600,
+                  fontSize: "22px",
+                  lineHeight: "32px",
+                  color: "#101828",
+                }}
+              >
                 Migrating to Linear 101
               </Typography>
-              <Typography variant="body2" color="text.secondary">
+              <Typography
+                variant="body2"
+                sx={{
+                  fontFamily: "Inter",
+                  fontStyle: "normal",
+                  fontWeight: 400,
+                  fontSize: "13px",
+                  color: "#667085",
+                }}
+              >
                 Linear helps streamline software projects, sprints, tasks, and
                 bug tracking. Here’s how to get started.
               </Typography>
@@ -91,10 +113,32 @@ export default function BlogGridCard() {
               </Button>
             </CardActions>
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography
+                gutterBottom
+                variant="h5"
+                component="div"
+                sx={{
+                  cursor: "pointer",
+                  fontFamily: "Inter",
+                  fontStyle: "normal",
+                  fontWeight: 600,
+                  fontSize: "22px",
+                  lineHeight: "32px",
+                  color: "#101828",
+                }}
+              >
                 Building your API Stack
               </Typography>
-              <Typography variant="body2" color="text.secondary">
+              <Typography
+                variant="body2"
+                sx={{
+                  fontFamily: "Inter",
+                  fontStyle: "normal",
+                  fontWeight: 400,
+                  fontSize: "13px",
+                  color: "#667085",
+                }}
+              >
                 The rise of RESTful APIs has been met by a rise in tools for
                 creating, testing, and managing them.
               </Typography>
@@ -123,10 +167,32 @@ export default function BlogGridCard() {
               </Button>
             </CardActions>
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography
+                gutterBottom
+                variant="h5"
+                component="div"
+                sx={{
+                  cursor: "pointer",
+                  fontFamily: "Inter",
+                  fontStyle: "normal",
+                  fontWeight: 600,
+                  fontSize: "22px",
+                  lineHeight: "32px",
+                  color: "#101828",
+                }}
+              >
                 Bill Walsh leadership lessons
               </Typography>
-              <Typography variant="body2" color="text.secondary">
+              <Typography
+                variant="body2"
+                sx={{
+                  fontFamily: "Inter",
+                  fontStyle: "normal",
+                  fontWeight: 400,
+                  fontSize: "13px",
+                  color: "#667085",
+                }}
+              >
                 Like to know the secrets of transforming a 2-14 team into a 3x
                 Super Bowl winning Dynasty?
               </Typography>
@@ -155,10 +221,32 @@ export default function BlogGridCard() {
               </Button>
             </CardActions>
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography
+                gutterBottom
+                variant="h5"
+                component="div"
+                sx={{
+                  cursor: "pointer",
+                  fontFamily: "Inter",
+                  fontStyle: "normal",
+                  fontWeight: 600,
+                  fontSize: "22px",
+                  lineHeight: "32px",
+                  color: "#101828",
+                }}
+              >
                 PM mental models
               </Typography>
-              <Typography variant="body2" color="text.secondary">
+              <Typography
+                variant="body2"
+                sx={{
+                  fontFamily: "Inter",
+                  fontStyle: "normal",
+                  fontWeight: 400,
+                  fontSize: "13px",
+                  color: "#667085",
+                }}
+              >
                 Mental models are simple expressions of complex processes or
                 relationships.
               </Typography>
@@ -187,10 +275,32 @@ export default function BlogGridCard() {
               </Button>
             </CardActions>
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography
+                gutterBottom
+                variant="h5"
+                component="div"
+                sx={{
+                  cursor: "pointer",
+                  fontFamily: "Inter",
+                  fontStyle: "normal",
+                  fontWeight: 600,
+                  fontSize: "22px",
+                  lineHeight: "32px",
+                  color: "#101828",
+                }}
+              >
                 What is Wireframing?
               </Typography>
-              <Typography variant="body2" color="text.secondary">
+              <Typography
+                variant="body2"
+                sx={{
+                  fontFamily: "Inter",
+                  fontStyle: "normal",
+                  fontWeight: 400,
+                  fontSize: "13px",
+                  color: "#667085",
+                }}
+              >
                 Introduction to Wireframing and its Principles. Learn from the
                 best in the industry.
               </Typography>
@@ -219,10 +329,32 @@ export default function BlogGridCard() {
               </Button>
             </CardActions>
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography
+                gutterBottom
+                variant="h5"
+                component="div"
+                sx={{
+                  cursor: "pointer",
+                  fontFamily: "Inter",
+                  fontStyle: "normal",
+                  fontWeight: 600,
+                  fontSize: "22px",
+                  lineHeight: "32px",
+                  color: "#101828",
+                }}
+              >
                 How collaboration makes us better designers
               </Typography>
-              <Typography variant="body2" color="text.secondary">
+              <Typography
+                variant="body2"
+                sx={{
+                  fontFamily: "Inter",
+                  fontStyle: "normal",
+                  fontWeight: 400,
+                  fontSize: "13px",
+                  color: "#667085",
+                }}
+              >
                 Collaboration can make our teams stronger, and our individual
                 designs better.
               </Typography>
@@ -251,10 +383,32 @@ export default function BlogGridCard() {
               </Button>
             </CardActions>
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography
+                gutterBottom
+                variant="h5"
+                component="div"
+                sx={{
+                  cursor: "pointer",
+                  fontFamily: "Inter",
+                  fontStyle: "normal",
+                  fontWeight: 600,
+                  fontSize: "22px",
+                  lineHeight: "32px",
+                  color: "#101828",
+                }}
+              >
                 Our top 10 Javascript frameworks to use
               </Typography>
-              <Typography variant="body2" color="text.secondary">
+              <Typography
+                variant="body2"
+                sx={{
+                  fontFamily: "Inter",
+                  fontStyle: "normal",
+                  fontWeight: 400,
+                  fontSize: "13px",
+                  color: "#667085",
+                }}
+              >
                 JavaScript frameworks make development easy with extensive
                 features and functionalities.
               </Typography>
@@ -283,10 +437,32 @@ export default function BlogGridCard() {
               </Button>
             </CardActions>
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography
+                gutterBottom
+                variant="h5"
+                component="div"
+                sx={{
+                  cursor: "pointer",
+                  fontFamily: "Inter",
+                  fontStyle: "normal",
+                  fontWeight: 600,
+                  fontSize: "22px",
+                  lineHeight: "32px",
+                  color: "#101828",
+                }}
+              >
                 Podcast: Creating a better CX Community
               </Typography>
-              <Typography variant="body2" color="text.secondary">
+              <Typography
+                variant="body2"
+                sx={{
+                  fontFamily: "Inter",
+                  fontStyle: "normal",
+                  fontWeight: 400,
+                  fontSize: "13px",
+                  color: "#667085",
+                }}
+              >
                 Starting a community doesn’t need to be complicated, but how do
                 you get started?
               </Typography>
