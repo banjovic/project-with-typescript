@@ -1,0 +1,24 @@
+.blog-layout {
+  display: flex;
+  flex-direction: row;
+
+  //   @media screen and (max-width: 768px) {
+  //     flex-direction: column;
+  //   }
+
+  .menu-container {
+    flex: 20%;
+  }
+
+  .content-wrapper {
+    flex: 80%;
+  }
+}
+
+.css-qx07zs-MuiPaper-root-MuiCard-root {
+  box-shadow: none !important;
+}
+
+.css-1rz4ayn-MuiPaper-root-MuiCard-root {
+  box-shadow: none !important;
+}

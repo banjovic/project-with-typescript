@@ -13,7 +13,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/" element={<LandingPage children />} />
+        <Route path="/" element={<LandingPage />} />
         <Route path="/blog" element={<BlogPost />} />
       </Switch>
     </Router>

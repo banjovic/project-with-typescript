@@ -27,7 +27,11 @@ const NavBar: FC = () => {
   return (
     <AppBar
       position="static"
-      sx={{ background: "#ffffff", borderBottom: "1px solid #f2f4f7" }}
+      sx={{
+        background: "#ffffff",
+        borderBottom: "1px solid #f2f4f7",
+        boxShadow: "none",
+      }}
     >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
