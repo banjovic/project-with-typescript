@@ -12,21 +12,46 @@ import {
 } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 // import { styled } from "@mui/material/styles";
-import React, { FC } from "react";
+import React, { FC, useMemo, useState } from "react";
 
-function generate(element: React.ReactElement) {
-  return [0, 1, 2].map((value) =>
-    React.cloneElement(element, {
-      key: value,
-    })
-  );
-}
+// function generate(element: React.ReactElement) {
+//   return [0, 1, 2].map((value) =>
+//     React.cloneElement(element, {
+//       key: value,
+//     })
+//   );
+// }
+
+const blogCategories = [
+  { id: 0, name: "View all" },
+  { id: 1, name: "Design" },
+  { id: 2, name: "Product" },
+  { id: 3, name: "Software Engineering" },
+  { id: 4, name: "Customer Success" },
+  { id: 5, name: "Leadership" },
+  { id: 6, name: "Management" },
+];
 
 // const Demo = styled("div")(({ theme }) => ({
 //   backgroundColor: theme.palette.background.paper,
 // }));
 
 const SideBlogMenu: FC = () => {
+  const [text, setText] = useState("");
+  const [search, setSearch] = useState("");
+
+  const handleText = (event: any) => {
+    setText(event.target.value);
+  };
+
+  const handleSearch = () => {
+    setSearch(text);
+  };
+
+  const filteredBlogCategories = blogCategories.filter((blogCategory) => {
+    return blogCategory.name.toLowerCase().includes(search.toLowerCase());
+  });
+
   return (
     <div>
       <Stack
@@ -35,14 +60,19 @@ const SideBlogMenu: FC = () => {
         sx={{ display: "flex", flexDirection: "row" }}
       >
         <Paper component="form" className="search-box">
-          <IconButton type="submit" sx={{ p: "10px" }} aria-label="search">
+          <IconButton
+            type="submit"
+            sx={{ p: "10px" }}
+            aria-label="search"
+            onClick={handleSearch}
+          >
             <SearchIcon />
           </IconButton>
           <InputBase
             // fullWidth
             placeholder="Search templates"
             inputProps={{ "aria-label": "Search templates" }}
-            // onChange={(e) => onSearchTempaltes(e)}
+            onChange={handleText}
           />
         </Paper>
       </Stack>
@@ -66,11 +96,11 @@ const SideBlogMenu: FC = () => {
         </Typography>
         {/* <Demo> */}
         <List>
-          {generate(
-            <ListItem>
-              <ListItemText primary="View all" />
+          {filteredBlogCategories.map((blogCategory) => (
+            <ListItem key={blogCategory.id}>
+              <ListItemText primary={blogCategory.name} />
             </ListItem>
-          )}
+          ))}
         </List>
         {/* </Demo> */}
       </Grid>

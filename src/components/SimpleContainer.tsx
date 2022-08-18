@@ -14,7 +14,7 @@ export default function SimpleContainer(props: Props) {
     <React.Fragment>
       <CssBaseline />
       <Container maxWidth="xl">
-        <Box sx={{ bgcolor: "#ffffff", height: "100vh" }}>{children}</Box>
+        <Box sx={{ height: "100vh" }}>{children}</Box>
       </Container>
     </React.Fragment>
   );

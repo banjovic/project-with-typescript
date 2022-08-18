@@ -1,3 +1,4 @@
+import { Box } from "@mui/material";
 import React, { FC } from "react";
 import BlogLayout from "../../components/blog/BlogLayout";
 import Footer from "../../components/footer/Footer";
@@ -7,14 +8,18 @@ import SimpleContainer from "../../components/SimpleContainer";
 
 const LandingPage: FC = () => {
   return (
-    <div>
+    <Box
+      sx={{
+        background: "#ffffff",
+      }}
+    >
       <SimpleContainer>
         <NavBar />
         <Hero />
         <BlogLayout />
         <Footer />
       </SimpleContainer>
-    </div>
+    </Box>
   );
 };
 

@@ -28,6 +28,7 @@ const BlogLayout: FC = () => {
             justifyContent: "center",
             borderTop: "1px solid #EAECF0",
             pt: 1.5,
+            pb: "96px",
             alignItems: "center",
           }}
         >
